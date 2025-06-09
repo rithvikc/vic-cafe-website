@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Block admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /404
+
+# Sitemap location
+Sitemap: https://viccafe.com.au/sitemap.xml
+
+# Additional crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
